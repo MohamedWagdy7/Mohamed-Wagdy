@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --fontcolor: red;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;   
+}
+header{
+    z-index: 1200;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    text-align: center;
+    padding: .625em 12.5em;
+    color: white;
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+nav{
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 1%;
+
+}
+body{
+    overflow-x: hidden;
+}
+.nav a:hover{
+    color: var(--fontcolor);
+}
+.info{
+    color: white;
+    position: absolute;
+    margin-top: 5%;
+}
+.info h2{
+    background-image: url("Style/Media/background.png");
+}
+.buttonn{
+    color: black;
+}
+.buttonn a:visited{
+    color: black;
+}
+.button1:hover{
+    background-color: rgba(255, 0, 0, 0.541);
+    transform: scale(1.1);
+}
+.button1{
+    transition: 0.7s ease;
+    display: inline-block;
+    color: black;
+    font-size: 1.5em;
+    size: 5em;
+    border: solid red;
+    background-color: red;
+    padding: 0.9375em 2.1875em ;
+    border-radius: 5px  ;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.info h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.info h2 span{
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    color: white;
+    font-size: 2.04em;
+    font-weight: 600;
+}
+.back{
+    display: flex;
+    height: 625px;
+    width: 1355px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 0px;
+}
+section{
+    align-items: center;
+    padding: 70px 85px;
+}
+.socialicon a{
+    padding-right: 30px;
+    font-size: 2em;
+    color: white;
+}
+.title{
+    text-transform: capitalize ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: var(--fontcolor);
+    font-weight: 800;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    color: var(--fontcolor);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #d3d1d1;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px;
+    transition: .7s ease;
+}
+.card:hover{
+    transform: scale(1.1) ;
+}
+header a:visited{
+    color: white;
+}
+.icon{
+    color: var(--fontcolor);
+    font-size: 8em;
+    text-align: center;
+}
+.sinfo h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.services{
+    position: relative;
+    top: 625px;
+    background-color: #d3d1d1;
+}
+.sinfo{
+    text-align: center;
+}
+.personal{
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    left: 56em;
+    width: 25em;
+    position: absolute;
+    top: 1em;
+    border: solid 1px;
+    border-radius: 50%;
+    transition: .7s ease;
+
+}
+.personal:hover{
+    transform: scale(1.1);
+}
+.social{
+    text-align: center;
+    color: var(--fontcolor);
+}
+*::selection{
+    background-color: red;
+    color: white;
+}
+.skills{
+    background-color: #e2e1e1;
+    position: relative;
+    top: 38.75em;
+    color: var(--fontcolor);
+    font-weight: 500;
+}
+.skills h2{
+    font-size: 2.2em;
+    text-align: center;
+    color: var(--fontcolor);
+}
+.html,
+.css,
+.python{
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px;
+    transition: .7s ease;
+}
+.html:hover,
+.css:hover,
+.python:hover{
+    transform: scale(1.1) ;
+
+}
+.html img,
+.css img,
+.python img{
+    display: inline;
+    width: 4em;
+}
